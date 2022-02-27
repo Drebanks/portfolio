@@ -1,0 +1,16 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  background: #0f0f11;
+  border-bottom: 3px solid red;
+}
+.contain {
+  display: flex;
+  justify-content: space-between;
+}
+.contain p {
+  color: #fff;
+}

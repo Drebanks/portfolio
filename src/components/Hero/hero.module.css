@@ -1,0 +1,60 @@
+.content {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 0px 150px;
+}
+.content h4 {
+  color: rgba(68, 72, 84, 0.5);
+  font-family: Recoleta Alt;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  /* margin-top: 100px; */
+}
+.cross{
+    display: flex;
+    justify-content: center;
+    
+}
+.first{
+
+}
+.second{
+    /* font-family: Jellyka - Estrya's Handwriting; */
+font-style: normal;
+font-weight: normal;
+/* font-size: 72px; */
+line-height: 44px;
+}
+.cross h1 {
+  color: #444854;
+  font-family: Recoleta Alt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+}
+.cross h1 span{
+    color: #fff;
+}
+.ban {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.para {
+  text-align: center;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 200%;
+  color: #fff;
+  margin-top: 30px;
+}
+.para a{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}

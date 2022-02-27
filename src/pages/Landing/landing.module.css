@@ -1,0 +1,29 @@
+.main {
+  background: #0f0f11;
+  width: 100%;
+  height: 100%;
+  /* padding: 0 150px; */
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+.projects h3 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  color: #444854;
+}
+.projects p {
+  color: #444854;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}

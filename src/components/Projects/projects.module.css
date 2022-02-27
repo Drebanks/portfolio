@@ -1,0 +1,38 @@
+.container {
+  padding: 0px 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+  width: 550px;
+  height: 500px;
+  background: #c8e2de;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.container h2 {
+  font-family: Recoleta Alt;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.container p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.container span {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 200px;
+}
