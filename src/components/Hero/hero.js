@@ -8,11 +8,11 @@ const Hero = () =>{
             <div className={classes.content}>
                 <h4>Hey, I’m Ganiu</h4>
                 <div className={classes.cross}>
-                    <span className={classes.first}>Shaping ideas into Products.</span>
+                    <span className={classes.first}>Shaping ideas<br/> into Products.</span>
                     <h1>Building <span>“ Experiences” </span><br />
                         for <span>Users</span> through <span>Design.</span>
                     </h1>
-                    <span className={classes.second}>Building products for Business Success.</span>
+                    <span className={classes.second}>Building products for <br/>Business Success.</span>
                 </div>
             </div>
             <div className={classes.para}>

@@ -1,0 +1,57 @@
+.pan {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 100px 0;
+}
+.pain {
+  background: #fffced;
+  border-radius: 10px;
+  width: 510px;
+  height: 432px;
+  padding: 30px;
+}
+.point,
+.solut {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+  color: #102447;
+}
+.solution {
+  background: #fdf5f6;
+  border-radius: 10px;
+  width: 510px;
+  height: 554px;
+  padding: 30px;
+}
+
+.word {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top:30px;
+  
+}
+.words{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 160%;
+color: #394B56;
+align-items: flex-start;
+margin-top:-7px;
+}
+.focus{
+    font-family: Kabut Hitam;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 102.5%;
+color: #032041;
+}

@@ -13,11 +13,11 @@ const Navigation = () => {
     return (
         <nav className={classes.nav}>
             <div className={classes.logo}>
-                <p>GANIU ODEYINKA</p>
+                <a href="/"><p>GANIU ODEYINKA</p></a>
             </div>
             <ul className={`${classes.nav_ul} ${clicked ? classes.close : ""}`}>
                 <li className={classes.nav_li}>
-                    <a className={classes.nav_a} to="/works">
+                    <a href="/work" className={classes.nav_a}>
                         Works
                     </a>
                 </li>

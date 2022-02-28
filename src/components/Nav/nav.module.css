@@ -2,18 +2,23 @@
   position: relative;
   /* left: 20px;
   margin-right: auto; */
-  padding: 20px 150px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 99;
+  margin: 0 auto;
+  max-width: 1240px;
 }
 .logo p {
   color: #fff;
   font-family: Recoleta Alt;
   font-style: normal;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1px;
+}
+.logo a{
+  text-decoration: none;
 }
 .nav_ul {
   display: flex;

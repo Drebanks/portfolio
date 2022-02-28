@@ -2,6 +2,8 @@
   text-align: center;
   margin-top: 4rem;
   padding: 0px 150px;
+  /* margin: 0 auto; */
+  /* max-width: 1240px; */
 }
 .content h4 {
   color: rgba(68, 72, 84, 0.5);
@@ -10,22 +12,20 @@
   font-weight: 600;
   font-size: 30px;
   line-height: 50px;
-  /* margin-top: 100px; */
 }
 .cross{
     display: flex;
     justify-content: center;
     
 }
-.first{
-
-}
+.first,
 .second{
-    /* font-family: Jellyka - Estrya's Handwriting; */
+    font-family: Jellyka-Estryas-Handwriting;
 font-style: normal;
 font-weight: normal;
-/* font-size: 72px; */
+font-size: 72px;
 line-height: 44px;
+color: #444854;
 }
 .cross h1 {
   color: #444854;

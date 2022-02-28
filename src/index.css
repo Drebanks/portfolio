@@ -10,6 +10,7 @@ html {
 
 body {
   width: 100%;
+  /* overflow-x: hidden; */
 }
 :root {
   --gilroy-regular: gilroy-regular;
@@ -17,7 +18,39 @@ body {
   --gilroy-bold: gilroy-bold;
   --gilroy-semibold: gilroy-semibold;
   --recoleta: recoleta-alt;
-  --gold: #eab221;
+  /* --gold: #eab221; */
   --black: #12082d;
   --grey: #636366;
+}
+@font-face {
+  font-family: "gilroy-regular";
+  src: url("./assets/fonts/gilroy/Gilroy-Regular.otf");
+}
+
+@font-face {
+  font-family: "gilroy-medium";
+  src: url("./assets/fonts/gilroy/Gilroy-Medium.otf");
+}
+
+@font-face {
+  font-family: "gilroy-bold";
+  src: url("./assets/fonts/gilroy/Gilroy-Bold.otf");
+}
+
+@font-face {
+  font-family: "gilroy-semibold";
+  src: url("./assets/fonts/gilroy/Gilroy-Semibold.otf");
+}
+
+@font-face {
+  font-family: "recoleta-alt";
+  src: url("./assets/fonts/recoleta/Recoleta-Bold.ttf");
+}
+@font-face{
+  font-family: "Jellyka-Estryas-Handwriting";
+  src: url("./assets/fonts/Jellyka-Estrya's-Handwriting-Font.ttf");
+}
+@font-face{
+  font-family: "Kabut Hitam";
+  src: url("./assets/fonts/Kabut Hitam 400.ttf");
 }
