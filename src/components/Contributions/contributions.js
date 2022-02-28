@@ -1,4 +1,4 @@
-import classes from "./contibutions.module.css";
+import classes from "./contributions.module.css";
 import Arrow from "../../assets/arrow up.svg";
 
 
