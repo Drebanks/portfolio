@@ -374,3 +374,13 @@ color: #070B0D;
   grid-row-gap: 30px;
   /* justify-content: space-between; */
 }
+
+.spoon{
+  font-family: 'Minion Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+  text-align:  center;
+}

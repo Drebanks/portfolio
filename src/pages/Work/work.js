@@ -556,6 +556,106 @@ const Work = () => {
                     spaces, why’d they go with the brand, the typical assurance and pitch flow. At the same time, it’s also convenient
                     for a repeated visitor to efficiently search for residential spaces right from the first fold.
                 </p>
+                <br/>
+                <h1>Login & Signup</h1>
+                <br/>
+                <p className={classes.ana}>
+                    The home page was designed and structured in a way that the users get an idea about the concept of Co-living
+                    spaces, why’d they go with the brand, the typical assurance and pitch flow. At the same time, it’s also convenient
+                    for a repeated visitor to efficiently search for residential spaces right from the first fold.
+                </p>
+                <br/>
+                <h1>Overview & Dashboard</h1>
+                <br/>
+                <p className={classes.ana}>
+                    The home page was designed and structured in a way that the users get an idea about the concept of Co-living
+                    spaces, why’d they go with the brand, the typical assurance and pitch flow. At the same time, it’s also convenient
+                    for a repeated visitor to efficiently search for residential spaces right from the first fold.
+                </p>
+                <br/>
+                <h1>Find a New Crib</h1>
+                <br/>
+                <p className={classes.ana}>
+                    The home page was designed and structured in a way that the users get an idea about the concept of Co-living
+                    spaces, why’d they go with the brand, the typical assurance and pitch flow. At the same time, it’s also convenient
+                    for a repeated visitor to efficiently search for residential spaces right from the first fold.
+                </p>
+                <br/>
+                <h1>Find a Roomie</h1>
+                <br/>
+                <p className={classes.ana}>
+                    The home page was designed and structured in a way that the users get an idea about the concept of Co-living
+                    spaces, why’d they go with the brand, the typical assurance and pitch flow. At the same time, it’s also convenient
+                    for a repeated visitor to efficiently search for residential spaces right from the first fold.
+                </p>
+                <br/>
+                <h1>Manage & Pay Bills</h1>
+                <br/>
+                <p className={classes.ana}>
+                    The home page was designed and structured in a way that the users get an idea about the concept of Co-living
+                    spaces, why’d they go with the brand, the typical assurance and pitch flow. At the same time, it’s also convenient
+                    for a repeated visitor to efficiently search for residential spaces right from the first fold.
+                </p>
+                <br/>
+                <h1>Wallet</h1>
+                <br/>
+                <p className={classes.ana}>
+                    The home page was designed and structured in a way that the users get an idea about the concept of Co-living
+                    spaces, why’d they go with the brand, the typical assurance and pitch flow. At the same time, it’s also convenient
+                    for a repeated visitor to efficiently search for residential spaces right from the first fold.
+                </p>
+                <br/>
+                <h1>Testing</h1>
+                <br/>
+                <p className={classes.ana}>
+                    Testing revealed that our app was easy to use with a few minor discrepancies. After completing various tasks for
+                    our on-boarding, our users had trouble with confirming they had submitted their information. We added a
+                    confirmation pop-up so users knew they had successfully completed a task.<br/>
+                    <br/>
+                    It further revealed that various functions in our chat were not needed. For example, we originally had a payment
+                    option in our chat but our users brought up security concerns so we decided to delete this function to ensure
+                    credibility.
+                </p>
+                <h1>Future Improvements</h1>
+                <br/>
+                <p className={classes.ana}>
+                    There is always room for improvement, however it is important to share what you have, recieve feedback, and try
+                    again. I anticipate more edits and final touches to our design and in the future we would like to:
+                </p>
+                    <br />    
+                <ul className={classes.ana}>
+                    <li>Add a point system in the application for completed tasks</li><br/>
+                    <li>Track each housemates progress</li><br/>
+                    <li>Add more animations (like a dancing logo)</li><br/>
+                    <li>Improve on-boarding experience</li>
+                </ul>
+                <br/>
+                <h1>Key Takeaways</h1>
+                <br/>
+                <ul className={classes.ana}>
+                    <li>Never Forget about the user</li><br/>
+                    <li>Keep it clean and functional</li><br/>
+                    <li>More is less</li><br/>
+                    <li>Collboration is key</li><br/>
+                    <li>Creativity has no language barriers</li>
+                </ul>
+                <br/>
+                <h1>Conclusion</h1>
+                <br/>
+                <p className={classes.ana}>
+                    I love the multidisciplinary nature of UX/UI Design. One moment you are conducting market research, the next you
+                    are conducting user interviews, and then designing prototypes. It truly allows you to use all sides of your brain and
+                    to use human empathy and psychology to create a product that will hopefully make peoples lives easier. The
+                    development process of Happyco gave me many insights into the world of UX/UI and I was excited at every
+                    stage. Now we just to build our code and maybe enroll in a coding bootcam. Please feel free to provide criticism
+                    and feedback!
+                </p>
+                <br/>
+                <br/>
+                <br/>
+                <span className={classes.spoon}>
+                    <p>Test our <a href="#">final prototype</a> on In Vision</p>
+                </span>
             </div>
         </div>
     )
