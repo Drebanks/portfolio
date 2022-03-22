@@ -36,7 +36,8 @@
   display: none;
 }
 .slide{
-  display:block;
+  display:flex;
+  justify-content:space-between;
   white-space: nowrap;
 
 }

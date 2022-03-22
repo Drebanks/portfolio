@@ -1,6 +1,7 @@
 import classes from "./contributions.module.css";
 import Arrow from "../../assets/arrow up.svg";
 import Rite from "../../assets/arrow-right.svg";
+import { Link } from "react-router-dom";
 
 
 const Contributions = () =>{
@@ -26,7 +27,7 @@ const Contributions = () =>{
                             stay organized and look good doing it...<br/>
                             Just Hank it!
                         </p>
-                        <a href="#">Open Live Project <img src={Rite} alt=""/></a>
+                        <Link to="#">Open Live Project <img src={Rite} alt=""/></Link>
                     </div>
                     <div className={classes.items}>
                         <h1>Hank
@@ -38,7 +39,7 @@ const Contributions = () =>{
                             stay organized and look good doing it...<br/>
                             Just Hank it!
                         </p>
-                        <a href="#">Open Live Project <img src={Rite} alt=""/></a>
+                        <Link to="#">Open Live Project <img src={Rite} alt=""/></Link>
                     </div>
                     <div className={classes.items}>
                         <h1>Hank
@@ -50,7 +51,7 @@ const Contributions = () =>{
                             stay organized and look good doing it...<br/>
                             Just Hank it!
                         </p>
-                        <a href="#">Open Live Project <img src={Rite} alt=""/></a>
+                        <Link to="#">Open Live Project <img src={Rite} alt=""/></Link>
                     </div>
                     <div className={classes.items}>
                         <h1>Hank
@@ -62,7 +63,7 @@ const Contributions = () =>{
                             stay organized and look good doing it...<br/>
                             Just Hank it!
                         </p>
-                        <a href="#">Open Live Project <img src={Rite} alt=""/></a>
+                        <Link to="#">Open Live Project <img src={Rite} alt=""/></Link>
                     </div>
                     <div className={classes.items}>
                         <h1>Hank
@@ -74,7 +75,7 @@ const Contributions = () =>{
                             stay organized and look good doing it...<br/>
                             Just Hank it!
                         </p>
-                        <a href="#">Open Live Project <img src={Rite} alt=""/></a>
+                        <Link to="#">Open Live Project <img src={Rite} alt=""/></Link>
                     </div>
                 </div>
             </div>

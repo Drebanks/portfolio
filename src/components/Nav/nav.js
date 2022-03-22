@@ -1,10 +1,21 @@
 import classes from "./nav.module.css";
 import { Link } from "react-router-dom";
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import Msg from "../../assets/Message.svg";
+import { useLocation } from 'react-router-dom';
                                      
 
 const Navigation = () => {
+
+    // const [color, setColor] = useState("white");
+    // const location = useLocation();
+    // useEffect(() => {
+    //     if (location.pathname === "/") {
+    //     setColor("white");
+    //     } else {
+    //     setColor('black')
+    //     }
+    // }, [location]);
     const [clicked, setClicked] = useState(false);
 
     const handleClick  = () =>{
@@ -17,24 +28,24 @@ const Navigation = () => {
             </div>
             <ul className={`${classes.nav_ul} ${clicked ? classes.close : ""}`}>
                 <li className={classes.nav_li}>
-                    <a href="/work" className={classes.nav_a}>
+                    <Link to="/work" className={classes.nav_a}>
                         Works
-                    </a>
+                    </Link>
                 </li>
                 <li className={classes.nav_li}>
-                    <a className={classes.nav_a} to="/about">
+                    <Link to ="/about"  className={classes.nav_a}>
                         About
-                    </a>
+                    </Link>
                 </li>
                 <li className={classes.nav_li}>
-                    <a className={classes.nav_a} to="/article">
+                    <Link to ="/article" className={classes.nav_a}>
                         Article
-                    </a>
+                    </Link>
                 </li>
                 <li className={classes.nav_li}>
-                    <a className={classes.nav_a} to="/say">
+                    <Link to="/say" className={classes.nav_a} >
                         Say Hello!
-                    </a>
+                    </Link>
                 </li>
                 <img src={Msg} alt =" " className={classes.msg}/>
             </ul>
