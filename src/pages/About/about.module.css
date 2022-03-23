@@ -278,3 +278,52 @@ color: #394B56;
 .june ul {
   list-style: none;
 }
+.ana {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 40px;
+  color: #394b56;
+  text-align: justify;
+}
+.img{
+  width: 100%;
+}
+.turn{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+color: #394B56;
+text-align:justify;
+}
+.spoon{
+  font-family: 'Minion Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+  text-align:  center;
+}
+.numb{
+  list-style-position: inside;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #394B56;
+
+}
+.small{
+  font-family: 'Minion Pro';
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 240%;
+color: #394B56;
+text-align:center;
+}
