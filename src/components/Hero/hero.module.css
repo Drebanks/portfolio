@@ -1,7 +1,8 @@
 .content {
   text-align: center;
   margin-top: 4rem;
-  padding: 0px 150px;
+  padding: 70px 150px;
+  position: relative;
   /* margin: 0 auto; */
   /* max-width: 1240px; */
 }
@@ -27,12 +28,23 @@ font-size: 72px;
 line-height: 44px;
 color: #444854;
 }
+.first{
+  position: absolute;
+  top: 80px;
+  left: 410px;
+}
+.second{
+  position: absolute;
+  top: 20px;
+  right: 430px;
+}
 .cross h1 {
   color: #444854;
   font-family: Recoleta Alt;
   font-style: normal;
   font-weight: 900;
   font-size: 80px;
+  /* position: relative; */
 }
 .cross h1 span{
     color: #fff;

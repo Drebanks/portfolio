@@ -6,7 +6,7 @@
   z-index: 1000;
   background: #0F0F11;
   overflow: hidden;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   /* border-bottom: 3px solid red; */
 }
 .contain {

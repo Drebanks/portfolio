@@ -1,13 +1,14 @@
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 120px;
   margin: 0 auto;
   max-width: 1240px;
   padding: 100px 0;
 }
 
 .box {
-  width: 550px;
+  width: 600px;
   height: 500px;
   background: #c8e2de;
   border-radius: 5px;

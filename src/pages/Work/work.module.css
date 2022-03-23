@@ -63,6 +63,11 @@
   max-width: 1240px;
   padding: 100px 0;
 }
+.block{
+  box-shadow: inset 3px 0 0 0 rgb(41 41 41);
+  margin-left: -20px;
+  padding-right: 230px;
+}
 .over p {
   font-family: Gilroy;
   font-style: normal;

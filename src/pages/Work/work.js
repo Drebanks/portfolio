@@ -76,9 +76,11 @@ const Work = () => {
                 </p>
                 <br/>
                 <br/>
-                <span>In Nigeria, the co-living concept is gaining widespread acceptance. Though the concept is novel, it’s here to<br/>
-                    stay, as Nigeria’s millennial (youth) population currently accounts for about 440 million of her population.
-                </span>
+                <blockquote className={classes.block}>
+                    <span>In Nigeria, the co-living concept is gaining widespread acceptance. Though the concept is novel, it’s here to<br/>
+                        stay, as Nigeria’s millennial (youth) population currently accounts for about 440 million of her population.
+                    </span>
+                </blockquote>
             </div>
             <div className={classes.pic}>
                 <img src={Image1} alt=""/>
