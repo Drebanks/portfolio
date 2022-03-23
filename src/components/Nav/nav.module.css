@@ -44,7 +44,7 @@
   padding: 5px;
 }
 .nav_li a:hover {
-  background: red;
+  /* background: red; */
   border-radius: 2px;
   color: blue;
   transition: all 0.5s ease-in-out;
