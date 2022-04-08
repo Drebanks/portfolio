@@ -9,7 +9,7 @@ const Hero = () => {
         <h4>
           Hey, I’m{" "}
           <span>
-            <ReactRotatingText items={["Ganiu", "a Product Designer"]} />
+            <ReactRotatingText items={["Ganiu Odeyinka", "a Product Designer"]} />
           </span>
         </h4>
         <div className={classes.cross}>
