@@ -1,0 +1,15 @@
+.progress{
+    background:white;
+    height:5px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.style{
+    height: 5px;
+    background:rebeccapurple;
+    /* width: 15%; */
+}

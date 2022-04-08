@@ -6,38 +6,45 @@ import Messenger from "../../assets/face.svg";
 import Instagram from "../../assets/insta.svg";
 import Youtube from "../../assets/tube.svg";
 
-const Footer = () =>{
-    return(
-        <div className={classes.footer}>
+const Footer = () => {
+    return (
+        <footer className={classes.footer}>
             <div>
                 <h3>
-                    Let’s work together to<br/>
+                    Let’s work together to
+                    <br />
                     build awesome products
                 </h3>
                 <div className={classes.flex}>
-                    <div>
-                        <button className={classes.btn}>
+                    <div className={classes.dir}>
+                        <a
+                            href="https://wa.me/+447835762829"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             Send a Whatsapp Message
-                            <img src={Arrow_up} alt=""/>    
-                        </button>
+                            <img src={Arrow_up} alt="" />
+                        </a>
                     </div>
                     <div>
-                        <button className={classes.btn}>
+                        <a href="mailto:omowalefst@gmail.com">
                             Send an Email
-                            <img src={Arrow_up} alt=   ""/>
-                        </button>
+                            <img src={Arrow_up} alt="" />
+                        </a>
                     </div>
                 </div>
                 <div className={classes.social}>
-                    <img src={Youtube} alt=""/>
-                    <img src={Twitter} alt=""/>
-                    <img src={Instagram} alt=""/>
-                    <img src={Facebook} alt=""/>
-                    <img src={Messenger} alt=""/>
+                    <div className={classes.social_img}>
+                        <img src={Youtube} alt="" />
+                        <img src={Twitter} alt="" />
+                        <img src={Instagram} alt="" />
+                        <img src={Facebook} alt="" />
+                        <img src={Messenger} alt="" />
+                    </div>
                 </div>
             </div>
-        </div>
-    )
+        </footer>
+    );
 };
 
 export default Footer;

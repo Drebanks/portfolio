@@ -13,6 +13,7 @@
   font-weight: 600;
   font-size: 30px;
   line-height: 50px;
+  /* margin-top: 50px; */
 }
 .cross{
     display: flex;
@@ -63,10 +64,44 @@ color: #444854;
   font-size: 18px;
   line-height: 200%;
   color: #fff;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .para a{
   text-decoration: none;
   color: #fff;
   cursor: pointer;
 }
+@media screen and (max-width:900px){
+  .first,
+  .second{
+    display: none;
+  }
+  .content h4{
+    font-size: 20px;
+  }
+  .cross h1{
+    font-size: 40px;
+  }
+  .para {
+    font-size:13px;
+    margin-top: 10px;
+  }
+  .ban > img{
+    /* display: none; */
+    width: 50%;
+  }
+  
+}
+@media screen and (max-width:650px){
+  .content{
+    padding:100px 60px;
+  }
+  .cross h1{
+    font-size: 30px;
+  }
+  .para p{
+    text-align: center;
+    padding: 0 40px;
+  }
+}
+

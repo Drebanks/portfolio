@@ -54,9 +54,13 @@
     background-repeat: no-repeat;
   background-position: center;
   position: relative; */
-  background: #0842c9;
-  border-radius: 0px 0px 20px 20px;
+  /* background: #0842c9;
+  border-radius: 0px 0px 20px 20px; */
 }
+.bann > img{
+  width: 100%;
+}
+
 .over {
   /* padding: 0 150px; */
   margin: 0 auto;
@@ -388,4 +392,62 @@ color: #070B0D;
   line-height: 40px;
   color: #000000;
   text-align:  center;
+}
+.numb{
+  list-style-position: inside;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #394B56;
+
+}
+@media screen and (max-width: 900px){
+  .container{
+    /* padding: 0 100px; */
+  }
+  .content{
+    padding: 0 60px;
+    margin-top:180px
+
+  }
+  .rig h1{
+    font-size: 30px;
+  line-height: 40px;
+
+  }
+  /* .over{
+    padding: 0 100px;
+  } */
+  .over,
+  .role,
+  .discover,
+  .analysis,
+  .user,
+  .map{
+    padding: 0 60px;
+  }
+  .bann > img{
+    width: 100%;
+  }
+  .pic{
+    flex-direction: column;
+    width: 50%;
+    gap:  30px;
+  }
+  .frame{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .spoon{
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width:500px){
+  .rig h1{
+    font-size: 18px;
+  line-height: 20px;
+  }
+  
 }

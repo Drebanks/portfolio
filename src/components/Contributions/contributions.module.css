@@ -25,28 +25,101 @@
   display: flex;
   align-items: center;
 }
-.horizontal{
+.horizontal {
   display: block;
   overflow-x: scroll;
   width: 100%;
   margin-top: 20px;
-  /* padding: 20px; */
+  padding: 20px;
 }
-.horizontal::-webkit-scrollbar{
-  display: none;
+.horri {
+  /* cursor: none; */
+  width: 100%;
+  overflow-x: hidden;
 }
-.slide{
-  display:flex;
-  justify-content:space-between;
-  white-space: nowrap;
+.horizontal {
+  /* place-self: auto;
+  grid-area: auto / auto / auto / auto;
+  z-index: auto;
+  float: none;
+  flex-shrink: 1;
+  display: flex;
+  margin: 64px 0px 0px;
+  inset: auto;
+  position: relative;
+  overflow: visible;
+  box-sizing: border-box;
+  width: 1063px;
+  height: 500px;
+  padding: 0px 0px 3000px; */
+}
+.slide {
+  /* cursor: none; */
+  display: flex;
+  /* min-width: 100%; */
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  transform: translate(0px, 0px);
+  inset: 0px auto auto 0px;
+  margin: 0px;
+  /* max-width: 1063px;
+  width: 1063px;
+  max-height: 374px;
+  height: 374px;
+  padding: 0px; */
 
+  /* transform: translate3d(-52.8644px, 0px, 0px);
+  left: 0px;
+  top: 231.5px;
+  margin: 0px;
+  max-width: 1053px;
+  width: 1053px;
+  max-height: 374px;
+  height: 374px;
+  padding: 0px;
+  box-sizing: border-box;
+  position: fixed; */
 }
-.items{
+.horri::-webkit-scrollbar {
+  display: none;
+
+  cursor: none;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.items {
   display: inline-block;
   padding: 20px;
   width: 463px;
   border: 1px solid #444854;
-box-sizing: border-box;
-border-radius: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.items h1 {
+  font-family: "Recoleta Alt";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 80px;
+  color: #fff;
+}
+.items p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+}
+@media screen and (max-width: 900px){
+  .container{
+    padding: 0 60px;
+  }
+  .cont h3 {
+    font-size:20px;
+  }
 
 }

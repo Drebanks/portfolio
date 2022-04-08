@@ -1,14 +1,13 @@
 .nav {
   position: relative;
-  /* left: 20px;
-  margin-right: auto; */
   padding: 40px 0 40px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 99;
+  /* z-index: 99; */
   margin: 0 auto;
   max-width: 1240px;
+  /* min-height: 10vh; */
 }
 .logo p {
   color: #fff;
@@ -22,33 +21,32 @@
 }
 .nav_ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 40%;
   list-style: none;
 }
 
-.nav_li {
+/* .nav_li {
   margin-right: 3rem;
-}
+} */
 
 .nav_a {
   font-family: var(--gilroy-regular);
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.01em;
   text-decoration: none;
   color: #ffffff;
   cursor: pointer;
   padding: 5px;
 }
-.nav_li a:hover {
-  /* background: red; */
+/* .nav_li a:hover {
+  background: red;
   border-radius: 2px;
   color: blue;
   transition: all 0.5s ease-in-out;
-}
+} */
 .bar {
   display: none;
   cursor: pointer;
@@ -65,24 +63,32 @@
 
 
 @media screen and (max-width: 900px) {
-  .bar {
+  .nav{
+    padding:40px 50px 40px ;
+  }
+   .bar {
     display: block;
     color: #fff;
     font-size: 30px;
   }
   .msg {
     width: 30px;
-    display: block;
+    display: none;
     margin: auto;
   }
   .nav_ul {
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     position: absolute;
-    background: grey;
-    padding: 20px;
+    background: rgba(0, 0, 0, 0.589);
+    padding: 40px;
     right: 0;
     top: 64px;
+    /* display: block; */
+    height: 50vh;
+    /* transform: translateX(-500px);
+    transition: all 0.5s ease-in-out; */
+
   }
   .nav_li {
     margin-bottom: 20px;
@@ -96,7 +102,7 @@
     width: 20%;
     display: block;
     margin: auto;
-    color: #000000;
+    color: #ffffff;
   }
   .close {
     right: -100%;

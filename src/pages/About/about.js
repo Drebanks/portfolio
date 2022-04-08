@@ -3,10 +3,9 @@ import classes from "./about.module.css";
 import Arrow from "../../assets/arrow up.svg";
 import Rectangle from "../../assets/work/borde.svg";
 import Blue from "../../assets/work/banner.svg";
-import Image1 from "../../assets/work/image 2.svg";
-import Image2 from "../../assets/work/image 1.svg";
+import Image1 from "../../assets/work/fit.png";
+import Image2 from "../../assets/work/sect.png";
 import Pain from "../../components/Pain/pain";
-import Board from "../../assets/work/image 275.svg";
 import Rite from "./image 292.svg";
 import Flow from "./image 291.svg";
 import Man from "../../assets/work/man1.png";
@@ -122,15 +121,15 @@ const About = () => {
           <img src={Image2} alt="" />
         </div>
       </div>
-      <Pain />
+      {/* <Pain /> */}
       <div className={classes.barn}>
         {/* <img src={Blue} alt=""/> */}
         <p className={classes.put}> Project Goal</p>
         <p className={classes.pan}>
-          The main goal is to allow people to be able to get a<br />
+          The main goal is to allow people to be able to get a
           room/roommate and also be able to split everyday bills
-          <br />
-          payment. HappyCo is Creating a culture of co-living and <br />
+      
+          payment. HappyCo is Creating a culture of co-living and
           building a community that shares culture and experience.
         </p>
         <ul className={classes.list}>
@@ -246,7 +245,7 @@ const About = () => {
           <img src={Flow} alt="" />
         </div>
       </div>
-      <div className={classes.quotes}>
+      {/* <div className={classes.quotes}>
         <h1>Direct Quotes From Users</h1>
         <div className={classes.cant}>
           <p>
@@ -271,7 +270,7 @@ const About = () => {
           </p>
           <img src={Mann} alt="" />
         </div>
-      </div>
+      </div> */}
       <br/>
       <br/>
       <br/>
@@ -286,7 +285,7 @@ const About = () => {
         </p>
         <br />
         <br />
-        <div className={classes.person}>
+        {/* <div className={classes.person}>
           <div className={classes.pers}>
             <div className={classes.june}>
               <img src={Girl} alt="" />
@@ -447,7 +446,7 @@ const About = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         <br/>
         <br/>
         <br/>
@@ -630,7 +629,7 @@ const About = () => {
         <br/>
         <br/>
         <br/>
-        <div>
+        <div className={classes.take}>
           <h1>Key Takeaways</h1>
           <br />
           <p className={classes.turn}>

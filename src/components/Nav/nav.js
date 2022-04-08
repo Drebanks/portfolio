@@ -24,7 +24,7 @@ const Navigation = () => {
     return (
         <nav className={classes.nav}>
             <div className={classes.logo}>
-                <a href="/"><p>GANIU ODEYINKA</p></a>
+                <Link to="/"><p>GANIU ODEYINKA</p></Link>
             </div>
             <ul className={`${classes.nav_ul} ${clicked ? classes.close : ""}`}>
                 <li className={classes.nav_li}>
