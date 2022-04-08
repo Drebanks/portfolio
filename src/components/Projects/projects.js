@@ -16,7 +16,7 @@ const Projects = () => {
         <br />
         <br />
         <div className={classes.box}></div>
-        <br />
+        {/* <br /> */}
         <span>UI Designs • UX Wireframing • User Research</span>
       </div>
       <div>

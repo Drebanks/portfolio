@@ -106,4 +106,7 @@ border-radius: 10px;
     width: 300px;
     font-size: 16px;
   }
+  .social{
+    width: 50%;
+  }
 }
