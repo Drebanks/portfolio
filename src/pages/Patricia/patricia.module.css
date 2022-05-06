@@ -1,0 +1,49 @@
+.container {
+  margin-top: 6rem;
+}
+.content {
+    /* padding: 0 150px; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-basis: 10%; */
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 100px 0;
+  }
+  .rig p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #9da8b6;
+  }
+  .rig h1 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #1d1c1c;
+  }
+  .pat p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #9da8b6;
+  }
+  .pat span {
+    color: #1d1c1c;
+  }
+  .part {
+    color: #1d1c1c !important;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+  }

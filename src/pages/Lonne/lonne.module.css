@@ -36,10 +36,8 @@
   line-height: 28px;
   color: #9da8b6;
 }
-.side {
+.pat span {
   color: #1d1c1c;
-  line-height: 22px;
-  margin-bottom:50px;
 }
 .part {
   color: #1d1c1c !important;
@@ -51,28 +49,20 @@
   display: flex;
   align-items: center;
 }
+
 .bann {
   /* background-image: url("../../assets/work/banner.svg");
     background-repeat: no-repeat;
   background-position: center;
   position: relative; */
-  /* background: #0842c9;
-  border-radius: 0px 0px 20px 20px; */
+  background: #0842c9;
+  border-radius: 0px 0px 20px 20px;
 }
-.bann > img{
-  width: 100%;
-}
-
 .over {
   /* padding: 0 150px; */
   margin: 0 auto;
   max-width: 1240px;
   padding: 100px 0;
-}
-.block{
-  box-shadow: inset 3px 0 0 0 rgb(41 41 41);
-  /* margin-left: -20px; */
-  /* padding-right: 20px; */
 }
 .over p {
   font-family: Gilroy;
@@ -91,7 +81,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 35px;
-  padding-right: 20px;
+
   color: #394b56;
 }
 .role {
@@ -148,13 +138,14 @@
   font-family: Gilroy;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 46px;
   line-height: 72px;
   margin: 0 auto;
   max-width: 1240px;
   color: #ffffff;
 }
 .list {
+  list-style-position: inside;
   margin: 0 auto;
   max-width: 1240px;
   display: flex;
@@ -166,107 +157,64 @@
   line-height: 72px;
   color: rgba(255, 255, 255, 0.5);
 }
-.discover {
+.inter{
   margin: 0 auto;
   max-width: 1240px;
   padding: 100px 0;
 }
-.live {
-  font-family: Gilroy;
+.inter p{
+  font-family: 'Gilroy';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 20px;
   line-height: 40px;
-  color: #394b56;
+  color: #394B56;
+
 }
-.idea {
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 40px;
-  color: #394b56;
+.annual{
+  list-style-position: inside;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+color: #394B56;
 }
-.discover > img {
+.dear > img{
   width: 100%;
 }
-.hypo {
+.tion{
   margin: 0 auto;
   max-width: 1240px;
-  padding: 100px 0;
+  /* padding:  0 100px 0; */
+
 }
-.hypo h4 {
-  font-family: Gilroy;
+.tion p{
+  font-family: 'Gilroy';
   font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 42px;
-  margin-bottom: 30px;
-  /* identical to box height, or 175% */
-
-  color: #1d1c1c;
-}
-.hype {
-  font-family: Minion Pro;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 60px;
-  width: 817px;
-  /* height: 240px; */
-  margin: 0 auto;
-
-  /* align-items: center; */
-
-  color: #394b56;
-}
-.facts {
-  background: #f9fafc;
-  border-radius: 20px;
-  margin: 0 auto;
-  max-width: 1240px;
-  padding: 50px;
-  width: 1040px;
-  height: 952px;
-}
-.cast {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-.look {
-  background: #ffffff;
-  border-radius: 16px;
-  padding: 20px;
-  font-size: 16px;
-  line-height: 30px;
-  width: 422px;
-  /* margin-top: 50px; */
-}
-.analysis {
-  margin: 0 auto;
-  max-width: 1240px;
-  padding: 100px 0;
-}
-.ana {
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 40px;
-  color: #394b56;
-  text-align: justify;
-}
-.analysis > img {
-  width: 100%;
-}
-.lite {
-  font-family: Minion Pro;
-  font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
   line-height: 40px;
-  color: #394b56;
+  color: #394B56;
+}
+.numb{
+  list-style-position: inside;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #394B56;
+
+}
+.flow{
+  margin: 0 auto;
+  max-width: 1240px;
+  /* padding: 100px 0; */
+
+}
+.flow div > img {
+  width: 100%;
 }
 .quotes {
   background: #f9fafc;
@@ -330,62 +278,27 @@
 .june ul {
   list-style: none;
 }
-.behave {
-  background: #f9fafc;
-  padding: 30px;
-}
-.behave ul {
-  list-style: none;
-  font-family: Gilroy;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 15px;
-color: #070B0D;
-}
-.let {
+.ana {
   font-family: Gilroy;
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 16px;
-  color: #070b0d;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 40px;
+  color: #394b56;
+  text-align: justify;
 }
-.live{
-    font-family: Gilroy;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 26px;
-color: #070B0D;
-}
-.ear{
-    font-family: Gilroy;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 24px;
-color: #070B0D;
-}
-
-.map {
-  padding: 100px 0;
-  margin: 0 auto;
-  max-width: 1240px;
-}
-.three > img {
+.img{
   width: 100%;
 }
-.visual > img {
-  width: 100%;
+.turn{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+color: #394B56;
+text-align:justify;
 }
-.frame {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 30px;
-  /* justify-content: space-between; */
-}
-
 .spoon{
   font-family: 'Minion Pro';
   font-style: italic;
@@ -405,6 +318,16 @@ color: #070B0D;
   color: #394B56;
 
 }
+.small{
+  font-family: 'Minion Pro';
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+/* line-height: 240%; */
+color: #394B56;
+text-align:center;
+}
+
 @media screen and (max-width: 900px){
   .container{
     /* padding: 0 100px; */
@@ -412,23 +335,28 @@ color: #070B0D;
   .content{
     padding: 0 60px;
     margin-top:180px
-
+    
   }
+
   .rig h1{
     font-size: 30px;
-  line-height: 40px;
-
+    line-height: 40px;
+    
   }
-  /* .over{
-    padding: 0 100px;
-  } */
-  .over,
-  .role,
-  .discover,
-  .analysis,
-  .user,
-  .map{
+  .put{
+   font-size:30px;
+   /* margin-top:30px;  */
+  }
+  .pan{
+    font-size:20px;
+    line-height: 25px;
+    text-align:left;
+  }
+  .over,.flow,.quotes,.user,.barn,
+  .tion,
+  .inter{
     padding: 0 60px;
+
   }
   .bann > img{
     width: 100%;
@@ -438,18 +366,14 @@ color: #070B0D;
     width: 50%;
     gap:  30px;
   }
-  .frame{
-    grid-template-columns: repeat(1, 1fr);
-  }
   .spoon{
     font-size: 22px;
   }
 }
-
-@media screen and (max-width:500px){
+@media screen and (max-width:650px){
   .rig h1{
-    font-size: 18px;
-  line-height: 20px;
+    font-size: 20px;
+  line-height: 35px;
   }
   
 }

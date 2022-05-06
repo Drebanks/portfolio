@@ -34,10 +34,21 @@
 }
 @media screen and (max-width: 900px) {
   .projects {
-    padding: 0 60px;
+    padding: 0 30px;
     /* margin: auto; */
   }
   .projects h3{
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px){
+  .projects{
+    margin-top:10px;
+  }
+  .projects h3{
+    font-size:14px;
+  }
+  .projeccts p{
+    font-size:12px;
   }
 }

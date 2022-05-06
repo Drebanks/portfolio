@@ -18,7 +18,7 @@ const Hero = () => {
             <br /> into Products.
           </span>
           <h1>
-            Building <span>“ Experiences” </span>
+            Building <span>“Experiences” </span>
             <br />
             for <span>Users</span> through <span>Design.</span>
           </h1>

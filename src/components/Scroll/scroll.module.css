@@ -1,6 +1,6 @@
 .progress{
     background:white;
-    height:5px;
+    height:1px;
     position: sticky;
     top: 0;
     left: 0;
@@ -9,7 +9,7 @@
 }
 
 .style{
-    height: 5px;
+    height: 1px;
     background:rebeccapurple;
     /* width: 15%; */
 }

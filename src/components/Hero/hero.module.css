@@ -67,7 +67,7 @@ color: #444854;
   /* margin-top: 30px; */
 }
 .para a{
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #fff;
   cursor: pointer;
 }
@@ -97,11 +97,13 @@ color: #444854;
     padding:100px 60px;
   }
   .cross h1{
-    font-size: 30px;
+    font-size: 24px;
   }
   .para p{
     text-align: center;
     padding: 0 40px;
+    font-size: 12px;
+    margin-top: -90px;
   }
 }
 

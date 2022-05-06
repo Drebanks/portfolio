@@ -42,15 +42,16 @@ const Work = () => {
         </div>
         <img src={Rectangle} alt="" />
         <div className={classes.pat}>
-          <p>
-            MY ROLE <br />
-            <span>
-              Product Design <br />
-              User Interviews <br />
-              Wireframing <br />
-              User research
-            </span>
-          </p>
+          <p>MY ROLE</p>
+          <span className={classes.side}>
+            Product Design <br />
+            User Interviews <br />
+            Wireframing <br />
+            User research
+          </span>
+          <br/>
+          <br/>
+          <br/>
           <p>
             COMPANY <br />
           </p>

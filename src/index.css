@@ -12,6 +12,15 @@ body {
   width: 100%;
   /* overflow-x: hidden; */
 }
+a{
+  text-decoration: none;
+}
+a:active{
+  color: rgba(250, 252, 254, 0.2);
+}
+.active{
+  border-bottom: 3px solid rgba(250, 252, 254, 0.2);
+}
 :root {
   --gilroy-regular: gilroy-regular;
   --gilroy-medium: gilroy-medium;

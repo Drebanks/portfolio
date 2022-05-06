@@ -9,10 +9,10 @@ import Youtube from "../../assets/tube.svg";
 const Footer = () => {
     return (
         <footer className={classes.footer}>
-            <div>
+            <div className={classes.content}>
                 <h3>
                     Let’s work together to
-                    <br />
+                    <br /> 
                     build awesome products
                 </h3>
                 <div className={classes.flex}>
@@ -35,11 +35,11 @@ const Footer = () => {
                 </div>
                 <div className={classes.social}>
                     <div className={classes.social_img}>
-                        <img src={Youtube} alt="" />
-                        <img src={Twitter} alt="" />
-                        <img src={Instagram} alt="" />
-                        <img src={Facebook} alt="" />
-                        <img src={Messenger} alt="" />
+                        <a href="#" ><img src={Youtube} alt="" /></a>
+                        <a href="#" ><img src={Twitter} alt="" /></a>
+                        <a href="#" ><img src={Instagram} alt="" /></a>
+                        <a href="#" ><img src={Facebook} alt="" /></a>
+                        <a href="#" ><img src={Messenger} alt="" /></a>
                     </div>
                 </div>
             </div>

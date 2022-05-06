@@ -116,10 +116,18 @@
 }
 @media screen and (max-width: 900px){
   .container{
-    padding: 0 60px;
+    padding: 0 30px;
   }
   .cont h3 {
     font-size:20px;
   }
-
+  
+}
+@media screen and (max-width: 500px){
+  .cont h3 {
+    font-size:14px;
+  }
+  .cont p{
+    display: none;
+  }
 }

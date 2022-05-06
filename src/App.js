@@ -1,5 +1,8 @@
 import Landing from "./pages/Landing/landing";
 import Work from "./pages/Work/work";
+import Lonne from "./pages/Lonne/lonne";
+import Todlr from "./pages/Todlr/todlr";
+import Patricia from "./pages/Patricia/patricia";
 import About from "./pages/About/about";
 import React from "react";
 import Layout from "./components/Layout/layout";
@@ -28,6 +31,30 @@ const App = () => {
             element={
               <Layout>
                 <Work />
+              </Layout>
+            }
+          />
+          <Route
+            path="/loone"
+            element={
+              <Layout>
+                <Lonne />
+              </Layout>
+            }
+          />
+          <Route
+            path="/todlr"
+            element={
+              <Layout>
+                <Todlr />
+              </Layout>
+            }
+          />
+          <Route
+            path="/patricia"
+            element={
+              <Layout>
+                <Patricia />
               </Layout>
             }
           />
