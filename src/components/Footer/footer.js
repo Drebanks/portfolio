@@ -7,6 +7,7 @@ import Instagram from "../../assets/insta.svg";
 import Youtube from "../../assets/tube.svg";
 
 const Footer = () => {
+    
     return (
         <footer className={classes.footer}>
             <div className={classes.content}>
