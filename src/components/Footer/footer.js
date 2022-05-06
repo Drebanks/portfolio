@@ -34,13 +34,13 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={classes.social}>
-                    <div className={classes.social_img}>
+                    {/* <div className={classes.social_img}> */}
                         <a href="#" ><img src={Youtube} alt="" /></a>
                         <a href="#" ><img src={Twitter} alt="" /></a>
                         <a href="#" ><img src={Instagram} alt="" /></a>
                         <a href="#" ><img src={Facebook} alt="" /></a>
                         <a href="#" ><img src={Messenger} alt="" /></a>
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </footer>

@@ -1,8 +1,8 @@
 import classes from "./projects.module.css";
-import Pat from "../../assets/pat.png";
-import Lonne from "../../assets/lonne.png";
-import Todll from "../../assets/todl.png";
-import Splacer from "../../assets/splace.png";
+import Safe from "../../assets/Group.jpg";
+import Pat from "../../assets/third.jpg";
+import Todll from "../../assets/first.jpg";
+import Splacer from "../../assets/four.jpg";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -10,14 +10,14 @@ const Projects = () => {
     <div className={classes.container}>
       <div>
         <Link to="/work">
-          <p>Residently</p>
+          <p>Todlr</p>
           <br />
           <br />
           <h2>
-            UX Case Study: <br />
-            Designing a modern urban
+            The Simplest way to invest<br />
+            collectively invest in a child's
             <br />
-            co-living experience App.
+            financial future.
           </h2>
           <br />
           <br />
@@ -29,19 +29,19 @@ const Projects = () => {
         </Link>
       </div>
       <div>
-        <Link to="/lonne">
-          <p>Lonne</p>
+        <Link to="/patricia">
+          <p>Patricia</p>
           <br />
           <br />
           <h2>
-            Improving the loan application <br />
-            process on an instant credit app
-            <br />— UX case study
+            13% increase in customer<br />
+            satisfaction through
+            <br />customer-centric approaches
           </h2>
           <br />
           <br />
           <div className={classes.box}>
-            <img src={Lonne} alt="" />
+            <img src={Pat} alt="" />
           </div>
           <br />
           <span>UI Designs • UX Wireframing • User Research</span>
@@ -49,33 +49,33 @@ const Projects = () => {
       </div>
       <div>
         <Link to="/patricia">
-          <p>Patricia</p>
+          <p>SafeHouse</p>
           <br />
           <br />
           <h2>
-            Creating a digital journey
+            UX case study:
             <br />
-            to paperless living — UX <br />
-            case study
+            Designing a modern urban<br />
+            co-living experience App
           </h2>
           <br />
           <br />
           <div className={classes.box}>
-            <img src={Pat} alt="Patricia" />
+            <img src={Safe} alt="safe" />
           </div>
           <br />
           <span>Design System • Product Design</span>
         </Link>
       </div>
       <div>
-        <Link to="/splacer">
-          <p>Dialect Design System</p>
+        <Link to="/lonne">
+          <p>Loone</p>
           <br />
           <br />
           <h2>
-            A massive, flexible <br />
-            component library and <br />
-            design system.
+            Improving the loan application <br />
+            process on an instant credit app
+            <br />— UX case study
           </h2>
           <br />
           <br />

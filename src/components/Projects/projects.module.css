@@ -8,13 +8,17 @@
 }
 
 .box {
-  width: 450px;
-  height: 500px;
+  width: 560px;
+  /* height: 500px; */
   background: #1D1D1D;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-bottom: 20px;
   cursor: pointer;
 } 
+.box > img{
+  width: 100%;
+  border-radius: 10px;
+}
 
 .container h2 {
   font-family: Recoleta Alt;
@@ -50,6 +54,9 @@
   .box{
     width: auto;
   }
+  .box > img{
+    width: 100%;
+  }
   .container h2{
     font-size: 24px;
     line-height: 30px;
@@ -62,5 +69,11 @@
 @media screen and (max-width: 500px){
   .container h2{
     font-size: 20px;
+  }
+  .box{
+    width: auto;
+  }
+  .box > img{
+    width:100%;
   }
 }
