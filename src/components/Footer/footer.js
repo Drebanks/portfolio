@@ -7,13 +7,12 @@ import Instagram from "../../assets/insta.svg";
 import Youtube from "../../assets/tube.svg";
 
 const Footer = () => {
-    
     return (
         <footer className={classes.footer}>
             <div className={classes.content}>
                 <h3>
                     Let’s work together to
-                    <br /> 
+                    <br />
                     build awesome products
                 </h3>
                 <div className={classes.flex}>
@@ -35,12 +34,34 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={classes.social}>
+                    <ul className={classes.list}>
+                        <li>
+                            <a href="#">
+                                <img src={Youtube} alt="" className={classes.img} />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src={Twitter} alt="" className={classes.img} />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src={Instagram} alt="" className={classes.img} />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src={Facebook} alt="" className={classes.img} />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src={Messenger} alt="" className={classes.img} />
+                            </a>
+                        </li>
+                    </ul>
                     {/* <div className={classes.social_img}> */}
-                        <a href="#" ><img src={Youtube} alt="" /></a>
-                        <a href="#" ><img src={Twitter} alt="" /></a>
-                        <a href="#" ><img src={Instagram} alt="" /></a>
-                        <a href="#" ><img src={Facebook} alt="" /></a>
-                        <a href="#" ><img src={Messenger} alt="" /></a>
                     {/* </div> */}
                 </div>
             </div>

@@ -19,8 +19,9 @@ a:active{
   color: rgba(250, 252, 254, 0.2);
 }
 .active{
-  border-bottom: 3px solid rgba(250, 252, 254, 0.2);
+  border-bottom: 7px solid rgba(250, 252, 254, 0.2);
 }
+
 :root {
   --gilroy-regular: gilroy-regular;
   --gilroy-medium: gilroy-medium;
@@ -62,4 +63,8 @@ a:active{
 @font-face{
   font-family: "Kabut Hitam";
   src: url("./assets/fonts/Kabut Hitam 400.ttf");
+}
+@font-face{
+  font-family: "Axiforma";
+  src: url("./assets/fonts/FontsFree-Net-sddd4.ttf");
 }

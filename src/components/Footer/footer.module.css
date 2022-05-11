@@ -91,6 +91,15 @@ border-radius: 10px;
 .social_img:hover{
   /* cursor: pointer; */
 }
+.list{
+  display: flex;
+}
+.list li{
+  list-style: none;
+}
+.img{
+  
+}
 @media screen and (max-width: 900px) {
   h3 {
     font-size: 35px;

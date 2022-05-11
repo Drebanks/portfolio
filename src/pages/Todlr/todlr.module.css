@@ -1,0 +1,90 @@
+.container {
+  margin-top: 6rem;
+}
+.content {
+  /* padding: 0 150px; */
+  display: flex;
+  justify-content: space-between;
+  /* flex-basis: 10%; */
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 100px 0;
+}
+.rig p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #9da8b6;
+}
+.rig h1 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+  color: #1d1c1c;
+}
+.pat {
+  border-left: 10px solid #eff2f7;
+  padding-left: 30px;
+}
+.pat p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #9da8b6;
+}
+.part a{
+    color: #775D4E;
+}
+.grond{
+    margin: 0 auto;
+  max-width: 1240px;
+}
+.grond h1{
+    font-family: 'Migra';
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+line-height: 45px;
+text-decoration-line: underline;
+
+
+}
+.grond{
+    font-family: 'Axiforma';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 40px;
+color: #775D4E;
+}
+.bak > img{
+    width: 100%; 
+}
+.gooaal{
+    background: #F4ECDF;
+border-radius: 0px 0px 54px 0px;
+padding: 50px;
+}
+.gooaal p{
+    font-family: 'Axiforma';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 40px;
+color: #4F4F4F;
+}
+.prrot > img,
+.dear > img{
+    width: 100%;
+}
+.liste{
+    /* list-style-type: decimal; */
+    list-style-position: inside;
+    line-height:40px;
+}

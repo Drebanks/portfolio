@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import classes from "./lonne.module.css";
 import Arrow from "../../assets/arrow up.svg";
 import Rectangle from "../../assets/work/borde.svg";
@@ -22,6 +22,9 @@ import Tall from "../../assets/about/image.svg";
 import Normal from "../../assets/about/image 295.svg";
 
 const Lonne = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className={classes.container}>
       <div className={classes.content}>

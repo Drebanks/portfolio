@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./work.module.css";
 import Arrow from "../../assets/arrow up.svg";
 import Rectangle from "../../assets/work/borde.svg";
 import Blue from "../../assets/work/banner.svg";
+import Mages from "../../assets/work/Icon.svg";
+import Rect from "../../assets/work/Rectangle 12.svg";
 import Image1 from "../../assets/work/fit.png";
 import Image2 from "../../assets/work/sect.png";
 import Pain from "../../components/Pain/pain";
 import Board from "../../assets/work/image 275.png";
 import Discuss from "../../assets/work/image 274.svg";
 import Man from "../../assets/work/man1.png";
+import Journey from "../../assets/about/journey.svg";
 import Lady from "../../assets/work/lady.png";
 import Mann from "../../assets/work/man2.png";
 import Girl from "../../assets/work/image9.png";
@@ -18,6 +21,9 @@ import Sketch from "../../assets/work/image 267.png";
 import One from "../../assets/work/image 268.svg";
 import Two from "../../assets/work/image 269.svg";
 import There from "../../assets/work/image 270.svg";
+import Oner from "../../assets/pat/one.jpg";
+import Twor from "../../assets/pat/two.jpg";
+import Threer from "../../assets/pat/three.jpg";
 import Four from "../../assets/work/image 271.svg";
 import Five from "../../assets/work/image 272.svg";
 import Six from "../../assets/work/image 273.svg";
@@ -26,8 +32,37 @@ import Purple from "../../assets/work/Group 5541.svg";
 import Blur from "../../assets/work/Group 5542.svg";
 import Yellow from "../../assets/work/Group 5543.svg";
 import Pink from "../../assets/work/Group 5544.svg";
+import Phone1 from "../../assets/work/White.svg";
+import Phone2 from "../../assets/work/White4.svg";
+import Phone3 from "../../assets/work/White2.svg";
+import Phone4 from "../../assets/work/White3.svg";
+import Anot from "../../assets/work/Whit.svg";
+import Anot2 from "../../assets/work/Whie.svg";
+import Anot3 from "../../assets/work/hite.svg";
+import Anot4 from "../../assets/work/Whte.svg";
+import Ontt from "../../assets/work/ontt.svg";
+import Ontte from "../../assets/work/ontte.svg";
+import Onttee from "../../assets/work/onttee.svg";
+import Oute from "../../assets/work/White.jpg";
+import Outer from "../../assets/work/ite.svg";
+import Outerr from "../../assets/work/hite.svg";
+import Out from "../../assets/work/dite.svg";
+import Ite1 from "../../assets/work/ite1.svg";
+import Ite2 from "../../assets/work/ite2.svg";
+import Ite3 from "../../assets/work/ite3.svg";
+import Ite4 from "../../assets/work/ite4.svg";
+import Wall from "../../assets/work/wall.svg";
+import Wall2 from "../../assets/work/wall2.svg";
+import Wall3 from "../../assets/work/wall3.svg";
+import Mana from "../../assets/work/mana.svg";
+import Mana2 from "../../assets/work/mana2.svg";
+import Mana3 from "../../assets/work/mana3.svg";
+import Mana4 from "../../assets/work/mana4.svg";
 
 const Work = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className={classes.container}>
       <div className={classes.content}>
@@ -40,7 +75,7 @@ const Work = () => {
             co-living experience App.
           </h1>
         </div>
-        <img src={Rectangle} alt="" />
+        {/* <img src={Rectangle} alt="" /> */}
         <div className={classes.pat}>
           <p>MY ROLE</p>
           <span className={classes.side}>
@@ -49,14 +84,14 @@ const Work = () => {
             Wireframing <br />
             User research
           </span>
-          <br/>
-          <br/>
-          <br/>
+          <br />
+          <br />
+          <br />
           <p>
             COMPANY <br />
           </p>
           <p className={classes.part}>
-            Patricia Tech
+            Splacer
             <img src={Arrow} alt="Arrow" />
           </p>
         </div>
@@ -65,7 +100,7 @@ const Work = () => {
         <img src={Blue} alt="" />
       </div>
       <div className={classes.over}>
-        <h1>Overview</h1>
+        <h1>Background Story</h1>
         <p>
           I want you to visualize this, imagine living on your own, yet not
           having to deal with the hassles of everyday household chores! In other
@@ -118,6 +153,9 @@ const Work = () => {
           the project, I collaborated closely with a product manager and two
           engineers.
         </p>
+        <div className={classes.bann}>
+          <img src={Rect} alt="" />
+        </div>
       </div>
       <Pain />
       <div className={classes.barn}>
@@ -142,6 +180,51 @@ const Work = () => {
           <li>ENJOYABLE</li>
           <li>EASY</li>
         </ul>
+      </div>
+      <div className={classes.disco}>
+        <h1>Kick-Off & Design Process</h1>
+        <p>
+          My process will be different in different projects and will be
+          determined by many factors such as the project goals, business needs,
+          complexity of the problem, time and etc. Here I’ll describe my process
+          for solving this problem.
+        </p>
+        <div className={classes.boxes}>
+          <div className={classes.inside}>
+            <img src={Mages} alt="" />
+            <h1>Discover</h1>
+            <p>
+              Conversations with stakeholders to define and understand business
+              pain points and flow. Then research to understand users needs.
+            </p>
+          </div>
+          <div className={classes.inside}>
+            <img src={Mages} alt="" />
+            <h1>Ideate & Flows</h1>
+            <p>
+              Brainstorming and making concretes from abstract. Here I decided
+              which problem can be imparted the most and came up with IA and
+              flows.
+            </p>
+          </div>
+          <div className={classes.inside}>
+            <img src={Mages} alt="" />
+            <h1>Design</h1>
+            <p>
+              With solid findings, I started sketching our screens for the app
+              from lo-fi to hi-fi, fully prototyped and ready for reviews and
+              test.
+            </p>
+          </div>
+          <div className={classes.inside}>
+            <img src={Mages} alt="" />
+            <h1>Testing</h1>
+            <p>
+              Share designs with stakeholders and other relevant people for
+              test, received feedback and iterate on them.
+            </p>
+          </div>
+        </div>
       </div>
       <div className={classes.discover}>
         <h1>UX Research & Discovery</h1>
@@ -172,13 +255,13 @@ const Work = () => {
       </div>
       <div className={classes.hypo}>
         <h4>Hypothesis</h4>
-        {/* <p className={classes.hype}>
+        <p className={classes.hype}>
           “Most people are motivated to share living spaces for social and
           economical reasons, however face conflict regarding communication,
           cleanliness, and accountability.”
-        </p> */}
+        </p>
       </div>
-      {/* <div className={classes.facts}>
+      <div className={classes.facts}>
         <h2>Interesting Facts:</h2>
         <div className={classes.cast}>
           <div className={classes.look}>
@@ -239,7 +322,7 @@ const Work = () => {
             </p>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className={classes.analysis}>
         <h1>COMPETITORS ANALYSIS</h1>
         <p className={classes.ana}>
@@ -351,7 +434,7 @@ const Work = () => {
           </li>
         </ul>
       </div>
-      {/* <div className={classes.quotes}>
+      <div className={classes.quotes}>
         <h1>Direct Quotes From Users</h1>
         <div className={classes.cant}>
           <p>
@@ -376,7 +459,7 @@ const Work = () => {
           </p>
           <img src={Mann} alt="" />
         </div>
-      </div> */}
+      </div>
       <br />
       <br />
       <br />
@@ -564,6 +647,9 @@ const Work = () => {
           tried finding opportunities through his thoughts.
         </p>
         <br />
+        <div className={classes.jooin}>
+          <img src={Journey} alt="" className={classes.img} />
+        </div>
         <p className={classes.ana}>
           Well, the user journey speaks for itself. We used it to analyse our
           product scope phase through the user's point of view. After
@@ -628,14 +714,27 @@ const Work = () => {
           computer screens, which translates in excellent readability. Because
           simplicity was the leading mantra; we decided to use just one font
           family.
+          <br />
+          <br />
+          In order to keep experience intuitive on the project, the consistent
+          design system was built. Atomic principles were used in order to
+          create all components of the project which could be used in future
+          development of the project like websites, new sections of the
+          application or printables. For the majority of elements were created
+          at different stages like active, inactive or disabled.
         </p>
-        <div className={classes.proto}>
+        <div className={classes.threeimg}>
+          <img src={Oner} alt="" />
+          <img src={Twor} alt="" />
+          <img src={Threer} alt="" />
+        </div>
+        {/* <div className={classes.proto}>
           <img src={Green} alt="" />
           <img src={Purple} alt="" />
           <img src={Blur} alt="" />
           <img src={Yellow} alt="" />
           <img src={Pink} alt="" />
-        </div>
+        </div> */}
         <br />
         <h1>Prototyping</h1>
         <br />
@@ -659,6 +758,12 @@ const Work = () => {
           also convenient for a repeated visitor to efficiently search for
           residential spaces right from the first fold.
         </p>
+        <div className={classes.phones}>
+          <img src={Phone1} alt="" />
+          <img src={Phone2} alt="" />
+          <img src={Phone3} alt="" />
+          <img src={Phone4} alt="" />
+        </div>
         <br />
         <h1>Login & Signup</h1>
         <br />
@@ -669,6 +774,12 @@ const Work = () => {
           also convenient for a repeated visitor to efficiently search for
           residential spaces right from the first fold.
         </p>
+        <div className={classes.phnes}>
+          <img src={Anot} alt="" />
+          <img src={Anot2} alt="" />
+          <img src={Anot3} alt="" />
+          <img src={Anot4} alt="" />
+        </div>
         <br />
         <h1>Overview & Dashboard</h1>
         <br />
@@ -679,6 +790,11 @@ const Work = () => {
           also convenient for a repeated visitor to efficiently search for
           residential spaces right from the first fold.
         </p>
+        <div className={classes.hones}>
+          <img src={Ontt} alt="" />
+          <img src={Ontte} alt="" />
+          <img src={Onttee} alt="" />
+        </div>
         <br />
         <h1>Find a New Crib</h1>
         <br />
@@ -689,6 +805,12 @@ const Work = () => {
           also convenient for a repeated visitor to efficiently search for
           residential spaces right from the first fold.
         </p>
+        <div className={classes.butte}>
+          <img src={Oute} alt="" />
+          <img src={Outer} alt="" />
+          <img src={Outerr} alt="" />
+          <img src={Out} alt="" />
+        </div>
         <br />
         <h1>Find a Roomie</h1>
         <br />
@@ -699,6 +821,12 @@ const Work = () => {
           also convenient for a repeated visitor to efficiently search for
           residential spaces right from the first fold.
         </p>
+        <div className={classes.ite}>
+          <img src={Ite1} alt="" />
+          <img src={Ite2} alt="" />
+          <img src={Ite3} alt="" />
+          <img src={Ite4} alt="" />
+        </div>
         <br />
         <h1>Manage & Pay Bills</h1>
         <br />
@@ -709,6 +837,12 @@ const Work = () => {
           also convenient for a repeated visitor to efficiently search for
           residential spaces right from the first fold.
         </p>
+        <div className={classes.ites}>
+          <img src={Mana} alt="" />
+          <img src={Mana2} alt="" />
+          <img src={Mana3} alt="" />
+          <img src={Mana4} alt="" />
+        </div>
         <br />
         <h1>Wallet</h1>
         <br />
@@ -719,6 +853,11 @@ const Work = () => {
           also convenient for a repeated visitor to efficiently search for
           residential spaces right from the first fold.
         </p>
+        <div className={classes.walle}>
+          <img src={Wall} alt=""/>
+          <img src={Wall2} alt=""/>
+          <img src={Wall3} alt=""/>
+        </div>
         <br />
         <h1>Testing</h1>
         <br />
@@ -746,11 +885,8 @@ const Work = () => {
         <br />
         <ul className={classes.numb}>
           <li>Add a point system in the application for completed tasks</li>
-          <br />
           <li>Track each housemates progress</li>
-          <br />
           <li>Add more animations (like a dancing logo)</li>
-          <br />
           <li>Improve on-boarding experience</li>
         </ul>
         <br />
@@ -758,13 +894,9 @@ const Work = () => {
         <br />
         <ul className={classes.numb}>
           <li>Never Forget about the user</li>
-          <br />
           <li>Keep it clean and functional</li>
-          <br />
           <li>More is less</li>
-          <br />
           <li>Collboration is key</li>
-          <br />
           <li>Creativity has no language barriers</li>
         </ul>
         <br />
@@ -784,11 +916,11 @@ const Work = () => {
         <br />
         <br />
         <br />
-        <span className={classes.spoon}>
+        {/* <span className={classes.spoon}>
           <p>
             Test our <a href="#">final prototype</a> on In Vision
           </p>
-        </span>
+        </span> */}
       </div>
     </div>
   );

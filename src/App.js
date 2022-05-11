@@ -7,9 +7,7 @@ import About from "./pages/About/about";
 import React from "react";
 import Layout from "./components/Layout/layout";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header/header";
-import Footer from "./components/Footer/footer";
-import Scroll from "./components/Scroll/scroll";
+
 
 
 
@@ -35,7 +33,7 @@ const App = () => {
             }
           />
           <Route
-            path="/loone"
+            path="/lonne"
             element={
               <Layout>
                 <Lonne />

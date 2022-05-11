@@ -22,15 +22,29 @@ color: #FFFFFF;
 }
 .right p {
   color: rgba(255, 255, 255, 0.6);
-  text-align:justify;
+  /* text-align:justify; */
+  font-size:20px;
+}
+.but{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+  
 }
 .view {
   background: transparent;
   color: #f0f1f5;
   padding: 10px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline:none;
+  /* border: none; */
+  border: 1px solid rgba(250, 252, 254, 0.2)
 }
 
 @media screen and (max-width: 768px) {

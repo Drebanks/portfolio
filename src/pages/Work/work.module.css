@@ -28,6 +28,10 @@
   line-height: 66px;
   color: #1d1c1c;
 }
+.pat{
+  border-left: 10px solid #EFF2F7;
+  padding-left:30px;
+}
 .pat p {
   font-family: Gilroy;
   font-style: normal;
@@ -35,6 +39,7 @@
   font-size: 14px;
   line-height: 28px;
   color: #9da8b6;
+ 
 }
 .side {
   color: #1d1c1c;
@@ -70,9 +75,9 @@
   padding: 100px 0;
 }
 .block{
-  box-shadow: inset 3px 0 0 0 rgb(41 41 41);
-  /* margin-left: -20px; */
-  /* padding-right: 20px; */
+  box-shadow: inset 4px 0 0 0 rgb(41 41 41);
+  margin-left: 100px;
+  padding-left: 20px;
 }
 .over p {
   font-family: Gilroy;
@@ -166,10 +171,27 @@
   line-height: 72px;
   color: rgba(255, 255, 255, 0.5);
 }
+.disco{
+  margin: 0 auto;
+  max-width: 1240px;
+  /* padding: 100px 0; */
+}
 .discover {
   margin: 0 auto;
   max-width: 1240px;
   padding: 100px 0;
+}
+.boxes{
+display: flex;
+  justify-content:space-between;
+}
+.inside{
+  width: 245px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+border-radius: 10px;
+padding:20px;
+text-align:center;
 }
 .live {
   font-family: Gilroy;
@@ -243,10 +265,49 @@
   width: 422px;
   /* margin-top: 50px; */
 }
+.jooin > img{
+  width: 100%;
+}
 .analysis {
   margin: 0 auto;
   max-width: 1240px;
   padding: 100px 0;
+}
+.phones,
+.ite{
+  background: #242424;
+border-radius: 20px;
+display: flex;
+justify-content:space-between;
+padding: 50px;
+}
+.phnes,
+.ites{
+  border-radius: 20px;
+  display: flex;
+  justify-content:space-between;
+  padding: 50px;
+  
+  background: #1890FF;
+  
+}
+.butte{
+  
+  border-radius: 20px;
+  display: flex;
+  justify-content:space-between;
+  padding: 50px;
+  
+  background: #1890FF;
+}
+.hones,
+.walle{
+  background: #242424;
+  border-radius: 20px;
+  display: flex;
+  justify-content:space-around;
+  padding: 50px;
+
 }
 .ana {
   font-family: Gilroy;
@@ -268,6 +329,10 @@
   line-height: 40px;
   color: #394b56;
 }
+.threeimg{
+  display: flex;
+  justify-content:space-between;
+  }
 .quotes {
   background: #f9fafc;
   border-radius: 20px;
